@@ -5,7 +5,7 @@ export const Presentation: React.FC = () => {
         Bonjour!
       </h2>
       <p className="text-center p-2 text-perso-black2 md:text-lg lg:text-2xl">
-        Je m'appelle Rémy, je suis développeur web junior basé sur Angers
+        Je m&#39;appelle Rémy, je suis développeur web junior basé sur Angers
       </p>
     </section>
   );
