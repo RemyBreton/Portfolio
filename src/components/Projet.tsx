@@ -4,6 +4,7 @@
 import { NextPage } from "next";
 
 import Image from "next/image";
+
 // Props interface
 // with title lien set to string
 interface Props {
@@ -28,7 +29,7 @@ const Projet: NextPage<Props> = (props) => {
         <div className="md:px-10 lg:px-20">
           <div className="mb-3 lg:mb-9">
             <Image src={title} alt="logo" className="pl-2 mb-4 lg:mb-8" />
-            <p className="text-xs pr-5 decoration-perso-black pl-2 md:text-base lg:text-2xl">
+            <p className="text-xs pr-5 text-perso-black pl-2 md:text-base lg:text-2xl">
               {content}
             </p>
           </div>

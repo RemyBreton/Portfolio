@@ -4,7 +4,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="w-full p-10 bg-perso-black2 text-perso-white flex flex-col items-center gap-5">
       <div className="flex gap-7">
-        <Link href="" className="hover:text-perso-white3 hover:underline">
+        <Link href="/about" className="hover:text-perso-white3 hover:underline">
           About
         </Link>
         <a href="mailto:breton.r49@gmail.com" className="hover:text-perso-white3 hover:underline">

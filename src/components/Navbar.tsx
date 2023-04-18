@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="text-perso-black hover:font-bold">
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li className="text-perso-black hover:font-bold">
                 <a href="mailto:breton.r49@gmail.com">Contact</a>
