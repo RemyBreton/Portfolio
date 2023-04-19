@@ -1,7 +1,7 @@
 export const Propos: React.FC = () => {
   return (
     <>
-      <section className="grid p-8 mb-5 text-perso-black">
+      <section className="grid p-8 mb-5 text-perso-black lg:grid-cols-2 lg:gap-28">
         <div className="mb-3">
           <h3 className="font-bold mb-3 md:text-xl lg:text-2xl">
             Je m&#39;appelle Rémy, un développeur Web junior basé à Angers.
@@ -22,8 +22,17 @@ export const Propos: React.FC = () => {
         <div>
           <h3 className="font-bold mb-3 md:text-xl lg:text-2xl">Compétences</h3>
           <p className="text-xs mb-3 md:text-base lg:text-xl">
-            HTML, CSS, JavaScript, React, Git, Express, node.js, Tailwind,
-            Bootstrap, Next.js, TypeScript, mongoDB
+            HTML, CSS, JavaScript, React, Git, Express, Node.js, Tailwind,
+            Next.js, TypeScript, Bootstrap, mongoDB
+          </p>
+          <h3 className="font-bold mb-3 md:text-xl lg:text-2xl">
+            Ce que j&#39;aime
+          </h3>
+          <p className="text-xs mb-3 md:text-base lg:text-xl">
+            Ce que j&#39;apprécie particulièrement dans le développement web, c&#39;est
+            la possibilité de créer des choses incroyables en quelques lignes de
+            code seulement. J&#39;aime la satisfaction que cela procure de voir une
+            idée de prendre vie et se concrétiser grâce à ma programmation.
           </p>
         </div>
       </section>
