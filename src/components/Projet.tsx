@@ -8,7 +8,7 @@ import Image from "next/image";
 // Props interface
 // with title lien set to string
 interface Props {
-  title: string;
+  titleLogo: string;
   lien: string;
   content: string;
 }
@@ -18,7 +18,7 @@ interface Props {
 // and defining type for props
 const Projet: NextPage<Props> = (props) => {
   // using destructuring to get title , lien and content
-  const { title } = props;
+  const { titleLogo } = props;
   const { lien } = props;
   const { content } = props;
 
@@ -28,7 +28,7 @@ const Projet: NextPage<Props> = (props) => {
         <div className="border border-perso-white3 mx-5 mb-5 md:mx-20 md:mb-7 lg:mx-40 lg:mb-10"></div>
         <div className="md:px-10 lg:px-20">
           <div className="mb-3 lg:mb-9">
-            <Image src={title} alt="logo" className="pl-2 mb-4 lg:mb-8" />
+            <Image src={titleLogo} alt="logo" className="pl-2 mb-4 lg:mb-8" />
             <p className="text-xs pr-5 text-perso-black pl-2 md:text-base lg:text-2xl">
               {content}
             </p>
